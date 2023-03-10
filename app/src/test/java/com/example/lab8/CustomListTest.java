@@ -50,6 +50,17 @@ public class CustomListTest {
         });
     }
 
+//    @Test
+//    void testCountCities() {
+//        CustomList list = new CustomList(null, cityList);
+//        City city = new City("Edmonton", "AB");
+//        list.addCity(city);
+//
+//        assertEquals(1,list.countCities());
+//    }
+
+
+
     @After
     void clearList() {
         cityList.clear();
