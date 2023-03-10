@@ -26,7 +26,7 @@ public class CustomListTest {
     }
 
     @Test
-    void hasCity(City currentCity) {
+    void hasCity() {
         CustomList list = new CustomList(null, cityList);
         City city = new City("Edmonton", "AB");
 
