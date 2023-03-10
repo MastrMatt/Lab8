@@ -42,7 +42,6 @@ public class CustomList extends ArrayAdapter<City> {
         provinceName.setText(city.getProvinceName());
 
         return view;
-
     }
 
     public int getCount(){
@@ -52,6 +51,5 @@ public class CustomList extends ArrayAdapter<City> {
     public void addCity(City city){
         cities.add(city);
     }
-
 
 }
